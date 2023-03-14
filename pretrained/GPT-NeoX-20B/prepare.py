@@ -8,7 +8,7 @@ DIR = os.path.dirname(os.path.abspath(__file__))
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Convert HF checkpoints')
-    parser.add_argument('--model-name', type=str, default='EleutherAI/gpt-neox-20b', 
+    parser.add_argument('--model-name', type=str, default='togethercomputer/GPT-NeoXT-Chat-Base-20B',
                         help='model-name')
     parser.add_argument('--save-dir', type=str, default=DIR, 
                         help='model-name')
